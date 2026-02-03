@@ -2,7 +2,7 @@
     --primary-color: #ffffff;
     --accent1-color: #264653;
     --accent2-color: #3e3b34;
-    --heading-font: "Time new roman", sans-serif;
+    --heading-font: "Time new roman";
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -33,8 +33,7 @@ header {
 header,
 img,
 nav {
-    display: flex;
-    justify-content: space-around;
+    justify-content: center;
 
 }
 
@@ -132,31 +131,11 @@ h1 {
     padding: 20px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
 }
 
 .hero article img {
     float: right;
     width: 125px;
-}
-
-footer {
-    background-color: white;
-    text-align: left;
-    padding: 16px 0;
-    color: var(--accent1-color);
-}
-
-.socialmedia {
-    margin-top: 12px;
-}
-
-.socialmedia img {
-    width: 40px;
-    height: 40px;
-    margin: 0 6px;
-    align-items: end;
 }
 
 /* -------HISTORY------------ */
@@ -195,9 +174,6 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
-}
-
-.adventure-grid {
     text-align: center;
     flex: 1;
 }
@@ -244,14 +220,17 @@ figcaption {
 }
 
 .socialmedia {
-    grid-column: 0;
+    grid-column: 1;
     justify-self: end;
     display: flex;
     gap: 0.1rem;
 }
 
 .socialmedia img {
+    margin-top: 12px;
+    margin: 0 6px;
     width: 40px;
+    align-items: end;
     height: auto;
 }
 
@@ -259,4 +238,11 @@ footer p {
     display: flex;
     justify-content: center;
     margin: 0;
+}
+
+footer {
+    background-color: white;
+    text-align: left;
+    padding: 16px 0;
+    color: var(--accent1-color);
 }
