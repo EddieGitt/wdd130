@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poll-form</title>
+  <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+  <header>
+    <h1>WDD130 | HTML Form - User poll</h1>
+  </header>
+  <main>
+    <form>
+      <label for="fullname">fullname</label>
+      <input type="text" id="fullname" name="fullname" required>
+      <label for="useremail">Email</label>
+      <input type="email" id="useremail" name="useremail" required>
+      <label for="quantity">Select quantity</label>
+      <select name="quantity" id="quantity">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <label for="browser">What is your favorite internet browser</label>
+      <select name="browser" id="browser">
+        <option value="chrome">chrome</option>
+        <option value="brave">brave</option>
+        <option value="firefox">firefox</option>
+        <option value="safari">safari</option>
+        <option value="edge">edge</option>
+        <option value="Other">Other</option>
+      </select>
+      <label for="pet">Do you you have a household pet</label>
+      <input type="checkbox" id="pet" name="pet">
+      <label for="feedback">List the places you have lived:</label>
+      <textarea name="feedback" id="feedback" rows="4"
+        placeholder="Florida, Newyork, Dubai, Silicon Valley"></textarea>
+      <button type="Submit">Submit Poll</button>
+    </form>
+  </main>
+  <footer>
+    ©2026 | WDD130 | HTML Form - User poll Activity | Ediomo Ebong
+  </footer>
+
+</body>
+
+</html>
