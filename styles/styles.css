@@ -9,12 +9,12 @@ nav a {
     padding: 10px;
 }
 
-h1 {
-    color: steelblue;
-}
-
 main {
     max-width: 840px;
+}
+
+h1 {
+    color: steelblue;
 }
 
 main img {
