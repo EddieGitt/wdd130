@@ -1,0 +1,235 @@
+/* OVERALL ALIGNING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: #eaeaea4e;
+}
+
+/* Logo */
+.site-header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation */
+.main-nav {
+    display: flex;
+}
+
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 10px;
+    list-style: none;
+}
+
+.navigation a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #999;
+    background-color: #fff;
+    font-size: 0.95rem;
+}
+
+.navigation a:hover {
+    background-color: #eee;
+}
+
+/* CONTACT PAGE LAYOUT */
+
+.contact-page {
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 2rem 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------- Company Info -------- */
+
+.company-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.company-info h1 {
+    background: none;
+    color: #000;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+.company-info p {
+    margin: 0.2rem 0;
+}
+
+/* -------- Map + Form Section -------- */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: stretch;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin-bottom: 2rem;
+}
+
+/* Map */
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 320px;
+    border: 1px solid #999;
+}
+
+/* -------- Contact Form -------- */
+
+.contact-form {
+    display: grid;
+    gap: 0.6rem;
+}
+
+.contact-form label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+
+/* Fieldset */
+
+.contact-form fieldset {
+    border: 1px solid #999;
+    padding: 0.6rem;
+    background-color: #fff;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.contact-form fieldset label {
+    display: block;
+    font-weight: normal;
+    margin: 0.3rem 0;
+}
+
+/* Checkbox */
+
+.contact-form .checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+/* Button */
+
+.contact-form button {
+    margin-top: 0.8rem;
+    padding: 0.6rem;
+    background-color: #e6e6e6;
+    border: 1px solid #999;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #dcdcdc;
+}
+
+/* -------- Employees Section -------- */
+
+.employees {
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    padding: 1rem;
+}
+
+.employees h2 {
+    background: none;
+    color: #000;
+    margin-bottom: 1rem;
+}
+
+/* Grid */
+
+.employee-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.employee-grid figure {
+    text-align: center;
+}
+
+.employee-grid img {
+    width: 100%;
+    max-width: 120px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ccc;
+    background-color: #ddd;
+}
+
+.employee-grid figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+/* FOOTER */
+
+.site-footer {
+    max-width: 840px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-top: 1px solid #ccc;
+}
+
+.site-footer p {
+    font-size: 0.9rem;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
